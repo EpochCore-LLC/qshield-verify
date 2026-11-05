@@ -1,0 +1,4 @@
+* text=auto eol=lf
+KEYS.json -text
+test/fixtures/*.json -text
+LICENSE -text

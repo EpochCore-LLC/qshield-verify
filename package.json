@@ -1,0 +1,16 @@
+{
+  "name": "qshield-verify",
+  "version": "1.0.0",
+  "description": "Check a Q-Shield proof report or signed collector release against EpochCore's published keys (Ed25519 + ML-DSA). The command-line tool only checks: it has no signing command, and the repository holds no private keys.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": { "qshield-verify": "src/cli.mjs" },
+  "scripts": { "test": "node --test \"test/*.test.mjs\"" },
+  "engines": { "node": ">=20" },
+  "repository": { "type": "git", "url": "https://github.com/EpochCore-LLC/qshield-verify" },
+  "dependencies": {
+    "@noble/curves": "2.4.0",
+    "@noble/hashes": "2.4.0",
+    "@noble/post-quantum": "0.7.1"
+  }
+}
