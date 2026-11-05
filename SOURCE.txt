@@ -1,2 +1,2 @@
-Exported from EpochCore-LLC/q-shield prove/ at commit ced4da0d4f80fb2b7c4356ae842683db1f0c428e by prove/scripts/export-verify.mjs.
+Exported from EpochCore-LLC/q-shield prove/ at commit 274e345d16ce370e77d367e7a6d90b9de7a2777b by prove/scripts/export-verify.mjs.
 src/jcs.mjs, src/report.mjs and src/release.mjs are unchanged copies; src/cli.mjs is prove/src/verify-cli.mjs.
