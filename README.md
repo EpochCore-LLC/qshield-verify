@@ -54,8 +54,19 @@ with the page EpochCore publishes at https://epochcoreqcs.com/qshield-keys:
 - each key id is the first 16 characters, in capitals, of the SHA-256 of the raw public key, and must equal an id
   printed there.
 
-Compare against that page, not against this README: keys change when EpochCore rotates them, and `--keys FILE` checks
-against a key file you downloaded from the page instead of the one in this repository.
+This repository is a second place the keys are published: on GitHub, not on EpochCore's own domain. Its
+[KEYS.json](KEYS.json) holds the same keys as the page. Compare against the page first; this table is a second copy:
+
+| Key id | Algorithm | Signs |
+|---|---|---|
+| `D72A8F9C5DE25146` | Ed25519 | reports and collector releases signed after the 2026-11-03 rotation |
+| `11055C6262215FAB` | ML-DSA-87 | reports and collector releases signed after the 2026-11-03 rotation |
+| `D4B93458E36D1F69` | Ed25519 | reports signed before the 2026-11-03 rotation |
+| `604DF4F5974F5A6B` | ML-DSA-65 | reports signed before the 2026-11-03 rotation |
+
+If the page and this repository ever disagree, trust neither until EpochCore explains why. Keys change when EpochCore
+rotates them (this list changes with them), and `--keys FILE` checks against a key file you downloaded from the page
+instead of the one in this repository.
 
 ## What is signed
 

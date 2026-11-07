@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "bin": { "qshield-verify": "src/cli.mjs" },
-  "scripts": { "test": "node --test test/cli.test.mjs" },
+  "scripts": { "test": "node --test test/cli.test.mjs test/readme.test.mjs" },
   "engines": { "node": ">=20" },
   "repository": { "type": "git", "url": "https://github.com/EpochCore-LLC/qshield-verify" },
   "dependencies": {
